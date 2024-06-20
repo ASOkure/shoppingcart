@@ -5,6 +5,7 @@ import { Cart } from "../pages";
 export const AllTheRoutes = () => {
   return (
     <Routes>
+      <Route path="/" element={<Home />} />
       <Route path="/home" element={<Home />} />
       <Route path="/cart" element={<Cart />} />
     </Routes>
